@@ -3,7 +3,10 @@ html, body {
     margin:0;
     padding:0;
     height:100%;
+    width: 100%;
     background-color: black;
+    color: white;
+    font-size: medium;
 }
 
 #cont{
@@ -124,15 +127,81 @@ img{
   color: #fff;
 }
 
-#heading{
+/* #heading{
     text-align: center;
     font-size: 100px;
     font-family: myFont, 'Arial';
     color: white;
     text-shadow: 3px 6px 10px #6cde01;
-}
+} */
 
 @font-face {
     font-family: myFont;
     src: url(/media/font.ttf);
+}
+
+.heading{
+    /* text-align: left; */
+    font-size: 100px;
+    font-family: myFont, 'Arial';
+    color: white;
+    height: fit-content;
+    padding: 0;
+    text-shadow: 3px 6px 10px #6cde01;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px;
+}
+
+.post-content img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    align-items: flex-end;
+    margin: 100px;
+}
+.post-content h1{
+    margin-top: 10%;
+    
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+}
+.date li {
+    font-size: large;
+    padding: 15px;
+    list-style: none;
+}
+.post-text button{
+    padding: 10px;
+    margin: 50px;
+    margin-left: 0;
+    background-color: #6cde01;
+    color: white;
+    /* background-color: inherit; */
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0;
+    font-family: myFont;
+}
+
+.post-text button:hover{
+    background-color: #6cde01;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 3px 1px 20px 3px #6cde01;
+}
+
+.heads{
+    font-family: myFont;
+    border-top: 4px solid rgb(34, 255, 34);
+    padding-top: 20px;
+    text-shadow: 3px 3px 10px #6cde01;
+    margin-top: 40px;
 }
