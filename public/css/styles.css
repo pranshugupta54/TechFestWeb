@@ -40,7 +40,7 @@ img{
     background-color: black;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #6cde01 !important;
 }
 
 .footer-padding {
@@ -158,7 +158,7 @@ img{
 }
 
 .post-content img {
-    width: 300px;
+    width: 400px;
     height: auto;
     padding: 10px;
     align-items: flex-end;
@@ -204,4 +204,79 @@ img{
     padding-top: 20px;
     text-shadow: 3px 3px 10px #6cde01;
     margin-top: 40px;
+}
+
+
+.navbar-brand{
+    padding: 2px;
+    margin-top: 50px;
+    font-family: myFont; 
+    font-size: xx-large;
+}
+.navbar-brand:hover{
+    text-shadow: 3px 3px 10px #6cde01;
+}
+
+
+
+/* EVENTS PAGE */
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    /* justify-content: center; */
+    align-content: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:min-content;
+    margin-left: 20%;
+    padding: 5%;
+    margin: 10%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6cde01;
+}
+
+.event-info h2{
+    /* width: 100%; */
+    padding: 5%;
+    /* margin: 2%; */
+    font-family: myFont;
+}
+
+.event-info p{
+    margin: 5%;
+}
+
+.flex-row img{
+    /* padding: 10%; */
+    margin-top: -10vh;
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 10px #6cde01;;
+}
+
+.event-info{
+    width: 17vw;
+}
+
+.info{
+    width: fit-content;
+    min-width: 200px;
+    margin-top: 20%;
+    /* margin-left: 2%; */
+    margin-bottom: 5%;
+    padding: 5%;
+    font-family: myFont;
+    background-color: inherit;
+}
+
+.img-sec{
+    display: flex;
+    flex-direction: column;
 }

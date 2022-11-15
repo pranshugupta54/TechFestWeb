@@ -5,14 +5,50 @@
     <form method="post" action="/compose">
         <div class="mb-3 form-group">
             <label for="exampleFormControlInput1" class="form-label">Event Name</label>
-            <input name="postTitle" type="text" class="form-control" autofocus>
+            <input name="eventTitle" type="text" class="form-control" autofocus>
         </div>
         <div class="mb-3 form-group">
-            <label for="exampleFormControlTextarea1" class="form-label">Content</label>
-            <textarea name="postBody" class="form-control" rows="4"></textarea>
+            <label for="exampleFormControlInput1" class="form-label">Event Code</label>
+            <input name="eventCode" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Date</label>
+            <input name="eventDate" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Time</label>
+            <input name="eventTime" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Venue</label>
+            <input name="eventVenue" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Team Size</label>
+            <input name="eventSize" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Prize</label>
+            <input name="eventPrize" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Contact</label>
+            <input name="eventContact" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Rules Link</label>
+            <input name="eventRules" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlInput1" class="form-label">Image Link</label>
+            <input name="eventImg" type="text" class="form-control" autofocus>
+        </div>
+        <div class="mb-3 form-group">
+            <label for="exampleFormControlTextarea1" class="form-label">About</label>
+            <textarea name="eventAbout" class="form-control" rows="4"></textarea>
         </div>
         <div class="mb-3">
-        <button type="submit" name="button" class="btn btn-primary">Publish</button>
+        <button type="submit" name="button" class="btn btn-primary">Add Event</button>
         </div>
     </form>
 </div>
