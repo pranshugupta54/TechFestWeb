@@ -141,7 +141,7 @@ img{
 }
 
 .heading{
-    /* text-align: left; */
+    text-align: center;
     font-size: 100px;
     font-family: myFont, 'Arial';
     color: white;
@@ -258,7 +258,7 @@ img{
     margin-top: -10vh;
     width: 200px;
     border-radius: 40px;
-    box-shadow: 3px 3px 10px #6cde01;;
+    box-shadow: 3px 3px 10px #6cde01;
 }
 
 .event-info{
@@ -279,4 +279,62 @@ img{
 .img-sec{
     display: flex;
     flex-direction: column;
+}
+
+.img-sec button{
+    border-radius: 10px;
+    border-color: #6cde01;
+    color: #6cde01;
+}
+
+.img-sec button:hover{
+    background-color: #6cde01;
+    color: black;
+    box-shadow: 3px 3px 10px #6cde01;
+}
+
+
+
+/* CONTACT FORM */
+
+.contact_form{
+    width: 40%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+}
+
+.contact_form input,textarea{
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
+    background-color: #353635 !important;
+    border-width: 2px;
+    margin-bottom: 5%;
+}
+
+.contact_form input:focus, input:active, textarea:focus, textarea:active{
+    border-color: #6cde01;
+    background-color: black;
+    outline: none;
+}
+
+.contact_form button{
+    border-radius: 10px;
+    border-color: #6cde01;
+    color: #6cde01;
+    padding: 10px;
+    width: 30%;
+    font-family: MyFont;
+    background-color: black;
+}
+
+.contact_form button:hover{
+    background-color: #6cde01;
+    color: black;
+    box-shadow: 3px 3px 10px #6cde01;
 }
