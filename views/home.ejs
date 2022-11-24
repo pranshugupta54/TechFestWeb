@@ -3,13 +3,5 @@
 <h1>Home</h1>
 <p> <%= startingContent %> </p>
 <br>
-<% events.forEach(function(event){ %>
-<h4> <%= event.title %> </h4>
-<% if(event.about.length > 100){%> 
-<p> <%= event.about.substring(0,100)+ "... " %><a href="/events/<%=event.code%> ">Read More</a></p>
-<%} else{ %>
-    <%= event.about %> 
-<% } %>   
-<% }) %> 
-
+<a href="/events"><h1>Go to Events</h1></a>
 <%- include('partials/footer'); -%>
