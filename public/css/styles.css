@@ -338,3 +338,62 @@ img{
     color: black;
     box-shadow: 3px 3px 10px #6cde01;
 }
+
+
+/* ABOUT US PAGE */
+
+.flex-row-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    padding: 2%;
+    margin: 4%;
+    margin-bottom: 6%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #6cde01;
+}
+
+.img-sec-c{
+    text-align: -webkit-center;
+}
+
+.img-sec-c img{
+    border-radius: 100px;
+    margin-top: 5%;
+}
+
+.info-c{
+    width: fit-content;
+    min-width: 100px;
+    /* margin-top: 20%; */
+    /* margin-left: 2%; */
+    margin-bottom: 5%;
+    padding: 5%;
+    font-family: myFont;
+    font-size: small;
+    background-color: inherit;
+    color: #6cde01;
+}
+
+
+.grid2c{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    /* width: 100%; */
+    /* justify-content: center; */
+    align-content: center;
+    font-size: small;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.abt-info h2{
+    font-size: small;
+    color: #6cde01;
+}
+
+.abt-info p{
+    color: white;
+}
