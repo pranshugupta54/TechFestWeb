@@ -31,7 +31,7 @@ let events = [
     img: 'https://yt3.ggpht.com/ytc/AMLnZu-LoDd3BlAJ3dh7B4qMez5hGCBS8axheuX2TIlz=s900-c-k-c0x00ffffff-no-rj'
 }];
 
-const homeContent = "Amet massa vitae tortor condimentum lacinia quis vel eros. Enim ut tellus elementum sagittis vitae. Mauris ultrices eros in cursus turpis massa tincidunt dui.";
+const homeContent = "";
 const aboutContent = "";
 const contactContent = "";
 const eventsContent = "";
