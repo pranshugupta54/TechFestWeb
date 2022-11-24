@@ -350,17 +350,32 @@ img{
     padding: 2%;
     margin: 4%;
     margin-bottom: 6%;
-    border-radius: 20px;
+    border-radius: 5px;
     border-style: solid;
     border-color: #6cde01;
 }
+
+.flex-row-c:hover{
+    box-shadow: 3px 3px 10px #6cde01;
+    animation-name: image;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image {
+    0% {border-radius: 0%;}
+    /* 25% {border-radius: 25%;} */
+    /* 50% {border-radius: 50%;} */
+    100% {border-radius: 30px;}
+}
+
 
 .img-sec-c{
     text-align: -webkit-center;
 }
 
 .img-sec-c img{
-    border-radius: 100px;
+    border-radius: 100%;
     margin-top: 5%;
 }
 
