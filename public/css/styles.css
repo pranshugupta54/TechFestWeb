@@ -397,3 +397,15 @@ img{
 .abt-info p{
     color: white;
 }
+
+.img-sec-c button{
+    border-radius: 10px;
+    border-color: #6cde01;
+    color: #6cde01;
+}
+
+.img-sec-c button:hover{
+    background-color: #6cde01;
+    color: black;
+    box-shadow: 3px 3px 10px #6cde01;
+}
