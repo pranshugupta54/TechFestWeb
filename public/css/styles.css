@@ -353,6 +353,7 @@ img{
     border-radius: 5px;
     border-style: solid;
     border-color: #6cde01;
+    /* background-color: pink; */
 }
 
 .flex-row-c:hover{
@@ -375,8 +376,13 @@ img{
 }
 
 .img-sec-c img{
-    border-radius: 100%;
+    border-radius: 100px;
+    /* width: 120px; */
+    height: 120px;
     margin-top: 5%;
+    border-color: #6cde01;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .info-c{
