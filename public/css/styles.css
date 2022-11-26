@@ -363,6 +363,10 @@ img{
     animation-fill-mode: forwards;
 }
 
+.flex-row-c:hover .img-row-c{
+    background-color: #6cde01;
+}
+
 @keyframes image {
     0% {border-radius: 0%;}
     /* 25% {border-radius: 25%;} */
